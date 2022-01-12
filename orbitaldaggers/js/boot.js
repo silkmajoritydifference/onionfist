@@ -3,7 +3,7 @@ $( document ).ready( async function() {
   await deployment.init();
   await webadd.init();
   await sync.init();
-  await webext.init();
+  //await webext.init();
   await settings.init();
   await size.popup();
   await asset_manager.init();
