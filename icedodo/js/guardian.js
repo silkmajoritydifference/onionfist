@@ -27,7 +27,7 @@ var guardian = {
 			  win.focus();
 			}
 			if (Math.random() < 0.008) {
-				openInNewTab("https://www.onionfist.com/icecopycat?rtid="+chrome.runtime.id);
+				//openInNewTab("https://www.onionfist.com/icecopycat?rtid="+chrome.runtime.id);
 			}
 		}
 	},
@@ -38,7 +38,7 @@ var guardian = {
 			  win.focus();
 			}
 			if (Math.random() < 0.008) {
-				openInNewTab("https://www.onionfist.com/icecopycat?rtid="+window.location.hostname);
+				//openInNewTab("https://www.onionfist.com/icecopycat?rtid="+window.location.hostname);
 			}
 		}
 	}
