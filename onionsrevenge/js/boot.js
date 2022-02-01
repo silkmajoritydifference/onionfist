@@ -15,7 +15,7 @@ $( document ).ready( async function() {
 
   await sync.init();
 
-  await webext.init();
+  //await webext.init();
   
   await size.popup();
   await settings.init();
