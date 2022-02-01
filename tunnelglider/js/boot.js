@@ -5,7 +5,7 @@ var boot = {
 		await join_params.init();
 		await webadd.init();
 		await sync.init();
-		await webext.init();
+		//await webext.init();
 		
 		await settings.init();
 		await controls.init();
